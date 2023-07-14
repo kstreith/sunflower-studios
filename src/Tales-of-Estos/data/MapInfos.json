@@ -1,0 +1,23 @@
+[
+null,
+{"id":1,"expanded":false,"name":"Path1","order":15,"parentId":0,"scrollX":1092,"scrollY":630},
+{"id":2,"expanded":false,"name":"Normal Town","order":1,"parentId":0,"scrollX":1081.3333333333333,"scrollY":1290},
+{"id":3,"expanded":true,"name":"Stone Cave","order":12,"parentId":0,"scrollX":1081.3333333333333,"scrollY":810},
+{"id":4,"expanded":false,"name":"Inn 1F","order":2,"parentId":2,"scrollX":1092,"scrollY":630},
+{"id":5,"expanded":false,"name":"Inn 2F","order":3,"parentId":4,"scrollX":1092,"scrollY":630},
+{"id":6,"expanded":false,"name":"Cutscene Town 1","order":17,"parentId":0,"scrollX":1081.3333333333333,"scrollY":1290},
+{"id":7,"expanded":false,"name":"Subcave 1","order":13,"parentId":3,"scrollX":1092,"scrollY":630},
+{"id":8,"expanded":false,"name":"Item Shop","order":4,"parentId":2,"scrollX":1092,"scrollY":630},
+{"id":9,"expanded":false,"name":"Armor Shop","order":5,"parentId":2,"scrollX":1092,"scrollY":630},
+{"id":10,"expanded":true,"name":"Village House 1F","order":6,"parentId":2,"scrollX":1092,"scrollY":630},
+{"id":11,"expanded":false,"name":"Village House 2F","order":7,"parentId":10,"scrollX":1092,"scrollY":630},
+{"id":12,"expanded":false,"name":"Mansion","order":8,"parentId":2,"scrollX":1081.3333333333333,"scrollY":1263.3333333333333},
+{"id":13,"expanded":false,"name":"House 1","order":9,"parentId":2,"scrollX":1092,"scrollY":630},
+{"id":14,"expanded":false,"name":"House 2","order":10,"parentId":2,"scrollX":1092,"scrollY":630},
+{"id":15,"expanded":false,"name":"Abandoned House","order":11,"parentId":2,"scrollX":1092,"scrollY":630},
+{"id":16,"expanded":false,"name":"OpeningSetup","order":14,"parentId":0,"scrollX":1092,"scrollY":630},
+{"id":17,"expanded":false,"name":"ForestPath1","order":20,"parentId":0,"scrollX":1092,"scrollY":630},
+{"id":18,"expanded":false,"name":"PathtoCave","order":16,"parentId":0,"scrollX":1092,"scrollY":630},
+{"id":19,"expanded":true,"name":"PlayerHousePath","order":18,"parentId":0,"scrollX":1092,"scrollY":630},
+{"id":20,"expanded":false,"name":"House 2","order":19,"parentId":19,"scrollX":1092,"scrollY":630}
+]
