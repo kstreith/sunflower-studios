@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sunflower Studios</title>
+  <script lang="javascript">
+    function onGenEmailClick() {
+        var emailText = document.getElementById("emails");
+        emailText.value = "Bledford2@wcpss.net; Rawright@wcpss.net";
+    }
+    function onSendClick() {
+        var emailText = document.getElementById("emails");
+        emailText.value = "Email Sent!";
+    }
+    function onGenTextClick() {
+      var textText = document.getElementById("texts");
+      textText.value = "Dear Educators,\n"+
+"I hope this message finds you well. I am reaching out to inform you of a wonderful opportunity for your students to engage with the community through volunteer work at the Poe Center for Health Education in Raleigh, North Carolina."+
+"The Poe Center provides a range of interactive health education programs that benefit our youth and the community at large. Volunteering at the center not only allows students to gain valuable experience but also to make a positive impact on their own health awareness and that of others."+
+"We believe that such experiences are invaluable in shaping well-rounded, socially responsible individuals. Therefore, we encourage you to share this information with your students and support them in participating in these volunteer opportunities."+
+"For more details on how students can get involved, please visit the Poe Center's website. Let's inspire our students to make a difference"+
+"https://www.poehealth.org/who-we-are/volunteer/"+
+"Warm regards,"+
+"XYZ"+
+"Volunteens Coordinator";
+    }
+  </script>
+</head>
+
+<body style ="block-size: 58em; background-color: beige; color: mediumaquamarine;">
+  <header class="header"  role="banner" style="text-align: center; color:beige; font-size: 5em; box-sizing: content-box; background-color: darkseagreen;">  
+    <div class="siteTitle">
+      <span>Volunteens</span>
+    </div>
+  </header>
+  <main style="font-size: 2em; text-align: center; box-sizing: content-box;">
+    <input type="button" id="genEmails" value="Gen Emails" onclick="onGenEmailClick();"/>
+    <input type="text" id="emails" style="width: 500px;" />
+  </main>
+  <main style="font-size: 2em; text-align: center; box-sizing: content-box;">
+    <input type="button" id="genText" value="Gen Text" onclick="onGenTextClick();"/>
+    <input type="text" id="texts" style="width: 500px;" />
+  </main>
+  <main style="font-size: 2em; text-align: center; box-sizing: content-box;">
+    <input type="button" id="sendButton" value="Send Emails" onclick="onSendClick();"/>
+  </main>
+</body>
+</html>
